@@ -61,7 +61,7 @@ void TrafficLight::waitForGreen()
     // Marcos Darino - 27-FEB-2021
     // . FP.5b(DONE)
     //   . Added the loop to wait the green light
-    while (_messagesPhases.receive() == TrafficLightPhase::green){}
+    while (_messagesPhases.receive() != TrafficLightPhase::green){}
 }
 
 TrafficLightPhase TrafficLight::getCurrentPhase()
@@ -98,10 +98,12 @@ void TrafficLight::cycleThroughPhases()
     while(1){
         
         // Measures the time between two loop cycles
-        std::default_random_engine generator;  // For more info see https://www.cplusplus.com/reference/random/
+        unsigned seed = std::chrono::system_clock::now().time_since_epoch().count(); // For more info see http://www.cplusplus.com/reference/random/uniform_int_distribution/operator()/
+        std::default_random_engine generator (seed);
         std::uniform_int_distribution<int> distribution(4,6);
-        int time_cycles = distribution(generator);  // generates number in the range 4..6
 
+        int time_cycles = distribution(generator);  // generates number in the range 4..6
+        std::cout << "RANDOM: " << time_cycles << "std:endln";
         std::this_thread::sleep_for(std::chrono::seconds(time_cycles));
 
         //Toggles the current phase of the traffic light
