@@ -101,7 +101,7 @@ void TrafficLight::cycleThroughPhases()
         std::uniform_int_distribution<int> distribution(4,6);
 
         int time_cycles = distribution(generator);  // generates number in the range 4..6
-        std::cout << "RANDOM: " << time_cycles << "std:endln";
+        
         std::this_thread::sleep_for(std::chrono::seconds(time_cycles));
 
         //Toggles the current phase of the traffic light
