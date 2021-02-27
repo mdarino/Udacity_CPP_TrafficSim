@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.cpp
+iostream
+-
+random
+-
+TrafficLight.h
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.h
+future
+-
+
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.h
+mutex
+-
+deque
+-
+condition_variable
+-
+TrafficObject.h
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficObject.h
+
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficObject.h
+vector
+-
+thread
+-
+mutex
+-
+
