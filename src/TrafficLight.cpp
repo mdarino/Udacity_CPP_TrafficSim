@@ -17,11 +17,11 @@ T MessageQueue<T>::receive()
     //   . Added the receive implementation
 
     // perform queue modification under the lock
-    std::unique_lock<std::mutex> unique_lock_rcv(_mutex);
-    _cond.wait(unique_lock_rcv, [this] { return !_queue.empty(); }); // pass unique lock to condition variable
+    std::unique_lock<std::mutex> unique_lock_rcv(_mutex_message);
+    _cond_message.wait(unique_lock_rcv, [this] { return !_queue_message.empty(); }); // pass unique lock to condition variable
     // remove last vector element from queue
-    T msg = std::move(_queue.back());
-    _queue.pop_back();
+    T msg = std::move(_queue_message.front());
+    _queue_message.clear();
     return msg; 
 }
 
@@ -36,11 +36,9 @@ void MessageQueue<T>::send(T &&msg)
     //   . Added the send implementation
 
     // perform vector modification under the lock
-    std::lock_guard<std::mutex> lockSend(_mutex);
-    // add vector to queue
-    std::cout << "   Message " << msg << " has been sent to the queue" << std::endl;
-    _queue.push_back(std::move(msg));
-    _cond.notify_one(); 
+    std::lock_guard<std::mutex> lockSend(_mutex_message);
+    _queue_message.push_front(std::move(msg));
+    _cond_message.notify_one(); 
 }
 
 
