@@ -5,6 +5,7 @@ CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Graphics.cpp
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Graphics.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Intersection.h
+ /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficObject.h
  /usr/include/opencv4/opencv2/calib3d.hpp
  /usr/include/opencv4/opencv2/core.hpp
@@ -138,12 +139,14 @@ CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Intersection.cpp
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Intersection.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Street.h
+ /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficObject.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Vehicle.h
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.o
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Intersection.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Street.cpp
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Street.h
+ /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficObject.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Vehicle.h
 CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o
@@ -157,6 +160,7 @@ CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Graphics.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Intersection.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Street.h
+ /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficObject.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficSimulator-Final.cpp
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Vehicle.h
@@ -291,6 +295,7 @@ CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o
 CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Intersection.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Street.h
+ /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficObject.h
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Vehicle.cpp
  /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Vehicle.h

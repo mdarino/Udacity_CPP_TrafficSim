@@ -6,15 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.cpp
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Intersection.cpp
 iostream
+-
+thread
+-
+chrono
+-
+future
 -
 random
 -
-TrafficLight.h
-/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.h
+Street.h
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Street.h
+Intersection.h
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Intersection.h
+Vehicle.h
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Vehicle.h
+
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Intersection.h
+vector
+-
 future
 -
+mutex
+-
+memory
+-
+TrafficObject.h
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficObject.h
+TrafficLight.h
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.h
+
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Street.h
+TrafficObject.h
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficObject.h
 
 /home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficLight.h
 mutex
@@ -33,4 +59,8 @@ thread
 -
 mutex
 -
+
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/Vehicle.h
+TrafficObject.h
+/home/marcosdarino/Desktop/UDACITY/trafficSim/Udacity_CPP_TrafficSim/src/TrafficObject.h
 

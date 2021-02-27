@@ -57,6 +57,11 @@ void TrafficLight::waitForGreen()
     // FP.5b : add the implementation of the method waitForGreen, in which an infinite while-loop 
     // runs and repeatedly calls the receive function on the message queue. 
     // Once it receives TrafficLightPhase::green, the method returns.
+
+    // Marcos Darino - 27-FEB-2021
+    // . FP.5b(DONE)
+    //   . Added the loop to wait the green light
+    while (_messagesPhases.receive() == TrafficLightPhase::green){}
 }
 
 TrafficLightPhase TrafficLight::getCurrentPhase()

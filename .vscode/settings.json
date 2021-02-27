@@ -53,6 +53,7 @@
         "typeinfo": "cpp",
         "complex": "cpp",
         "cstring": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "trafficlight.h": "c"
     }
 }
